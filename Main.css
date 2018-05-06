@@ -1,0 +1,592 @@
+body{
+    padding:0%;
+    margin:0%;
+    background-color:#748B75;;
+    }
+.header 
+    {
+    background-color:#8C0020;
+    color: #323055;
+    padding: 1%;
+    width:98%;
+    }
+.in
+    {
+    position: relative;
+    width:10%;
+    margin-top: -3%;
+    margin-left:90%;
+    border-radius:20%;
+    }
+    .in input
+    {
+    border:none;
+    display:block;
+    width:50%;
+    height:3%;
+    box-sizing: border-box;
+    }
+    .in img
+    {
+    position: absolute;
+    top:2%;
+    left:1%;
+    }
+.search
+    {
+    width:15%;
+    }
+h1{
+    margin-left: 2%;
+    text-transform: capitalize;
+    color: darkolivegreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+.menu
+    {
+    padding-left: 50%;
+    margin-top: -5%;
+    overflow:hidden;
+    background-color: #748B75;
+    }
+    .java
+    {font-size: 50%;}
+    .menu a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 3% 6%;
+    text-decoration: none;
+    font-size: 24px;
+    }
+
+    .menu a:hover{
+    background-color: #ddd;
+    color:black;
+    }
+    .active{
+    background-color: antiquewhite;
+    color:white;
+}
+
+    .on {
+    display:none;
+    }
+    .responsive a{
+      float:none;
+      display:block;
+      text-align: center;
+    } 
+ 
+    .menu.responsive a{
+    float:none;
+    display: block;
+    text-align: left;
+    }
+.link{
+       float:right;
+       margin-right: 20%;
+    margin-top:-2%;  }
+.acc img{
+        width:4%;
+        height: 7%;
+        margin-left: 60%;
+        margin-top: -3%;   
+    }
+.cart img{
+        width:4%;
+        height:5%;
+       margin-left:55%;
+        margin-top: 0%;
+       
+ } 
+
+ .slide{
+        width:  100%;
+     height: 29%;
+ }
+    
+.para{
+        text-indent: 2%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:midnightblue;
+    }
+.one{
+    float:left;
+    background-color: white;
+    width:24%;
+    height:20%;
+}
+.one1{
+  width:100%;
+  height:50%;
+  float: inherit;
+}
+
+.two{
+    float:left;
+    background-color: white;
+    width:24%;
+    height:20%;
+    margin-left:1%;
+}
+.two2{
+  width:100%;
+  height:50%;
+  float: inherit;
+}
+.three{
+    float:left;
+    background-color: white;
+    width:24%;
+    height:20%;
+    margin-left:1%;
+}
+
+.three3{
+  width:100%;
+  height:50%;
+  float: inherit;
+}
+
+.four{
+    float:left;
+    background-color: white;
+    width:25%;
+    height:20%;
+    margin-left:1%;
+}
+.four4{
+  width:100%;
+  height:50%;
+  float: inherit;
+}
+.footer{
+    background-color: #503D42;
+    padding:3%;
+    margin-top:12%;
+    max-height: 25%;
+}          
+.list1{  
+    float:left;
+    background-color: #503D42;
+    width:24%;
+    height:12%;
+    margin-top:-3%;
+    margin-left:-3%;
+}
+.shape {
+    list-style-type:none;
+}
+li{
+    font-size: 70%;
+    margin-top:-5%;
+}
+.list2{
+    float:left;
+    background-color: #503D42;
+    width:30%;
+    height:12%;
+    margin-top:-3%;
+    margin-left:-3%;
+}
+h3{
+    margin-top:0%;
+}
+
+.list3{
+   
+    float:left;
+    background-color:#503D42;
+    width:50%;
+    height:12%;
+    margin-top:-3%;
+    margin-left:-3%;
+}
+
+.listimg{
+    margin-left:45%;
+    width:50%;
+    height:50%;
+    margin-top:-2%;
+} 
+
+.list3 h3{
+    margin-left:50%;
+}
+
+.mark{
+    color:#8C0020;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Displaying the condition for 700px */
+
+@media screen and (max-width:700px){
+    body{
+        background-color: beige;
+    }
+    .cart img{ width:10%;
+        height:4%;   
+        margin-top: 7%;
+        margin-left: 55%;
+    }
+    .acc img{ width:14%;
+        height:6%;
+        margin-top: -10%;
+        margin-left: 65%;
+        
+    }
+    .link{
+        font-size:12px;
+        color: cyan;
+        margin-top:-8%;
+        margin-left:60%;
+        margin-bottom: 2%;
+        margin-right: 1%;
+    }
+    .header{
+        padding-bottom: 7%;
+        
+    }
+  .in{
+      margin-bottom: -11%;
+      margin-left:0%;
+      width:60%;
+    
+  }
+  .in input{
+    border:2px inset black;
+  }
+  .search{
+      display:none; 
+  }
+  .menu a:not(:first-child) {display: none;}
+  .menu a.on {
+    float: right;
+    display: block;
+  }
+  .slide{
+      height:20%;
+      width:374px;
+  }
+  h1{
+      margin-top: 10%;
+      font-size: 30px;   
+      color:maroon;
+    text-transform:capitalize;
+    text-shadow: 1px lightslategray;
+      
+  }
+  .para{
+      text-indent: 10%;
+  }
+  .menu {
+background-color: beige;
+  }
+  .menu a{
+      color:crimson;
+      font-size: 20px;
+  }
+.one{
+    width:50%;
+    height:30%;
+  
+    
+}
+.two{
+    width:49%;
+    height:30%;
+
+
+}
+.three{
+    width:49%;
+    height:30%;
+
+}
+.four{
+    width:49%;
+    height:30%;
+   
+}
+.list1{
+    width:356px;
+    background-color:tomato ;
+    padding-left:4%;
+}
+.list1 li h4{
+    font-size: 15px;
+}
+.list2{
+    text-indent: 40px;
+    width:356px;
+    padding-left:4%;
+    font-size: 13px;
+    background-color: tomato;
+}
+.list3{
+    padding:0%;
+    width:100px;
+    padding-right:269px;
+    background-color:wheat;
+}
+.list3 h3{
+    font-size: 10px;
+   
+}
+.listimg{
+    width:80px;
+}
+
+/* For Pixel 2XL */
+@media screen and (min-width:411px){
+   .header{
+       width:400px;
+   }
+   .cart img{
+       margin-left:50%;
+       height:4%;
+       margin-top:5%;
+   }
+   .acc img{
+       margin-left: 60%;
+       height:5%;
+       margin-top:-9%;
+   }
+   .link{
+       font-size: 15px;
+       margin-top: -7%;
+   }
+    .list1{
+        width:393px;
+        font-size: 20px; 
+    }
+    .list2{
+        width:393px;
+        text-align:left;
+        text-indent: 40px;
+    }
+    .list3{              
+        padding-right:308px;
+        width:100px;  
+        height:10%; 
+    }
+    .list3 h3{font-size: 15px;
+        font-family:Arial;
+        }
+    .listimg{width:100px;height:25px; }
+
+    .menu a{
+        font-size: 20px;
+        padding:-3%;
+    }
+    .slide{
+        width:99%;
+    }
+
+    .para{
+        margin:0%;
+    }
+}
+
+}
+
+/* For mobile phones */
+ @media screen and (max-width:362px) and (min-width:300px)
+{
+    body{
+        margin:0%;
+        margin-left: 0%;
+    }
+    .link{
+    margin-top:-5%;
+    font-size: 11px;
+    }
+    .header{width: 362px;}
+    .slide{
+        max-width: 370px;
+    }
+    .cart img{
+        height:25px;
+    }
+    .acc img{
+        height:25px;
+        margin-top:-7%;
+    }
+    .menu a{
+        font-size: 15px;
+    }
+    .one{
+        width:370px;
+    }
+    .one1{
+        height:60%;
+    }
+    .two{
+        width:369px;
+        margin:0%;
+    }
+    .two2{
+        height:60%;
+    }
+    .three{
+        width:369px;
+        margin:0%;
+    }
+    .three3{
+        height:60%;
+    }
+
+    .four{
+        width:369px;
+        margin: 0%;
+    }
+    .four4{
+        height: 60%;
+    }
+
+} 
+/* For Navigation bar */
+
+       @media screen and (max-width: 600px)  {
+        .menu a:not(:first-child) {display: none;}
+        .menu a.on {
+          float: right;
+          display: block;
+        }
+      }
+       
+       @media screen and (max-width: 600px) {
+        .menu.responsive {position: relative;}
+        .menu.responsive a.on {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .menu.responsive a{
+            float: none;
+            display:block;
+            text-align: left;
+        }
+
+    }
+    /* For tablet ipad and ipadpro */
+    @media screen and (max-width:1024px) and (min-width:768px){
+        .acc img{
+            width:4%;
+            height:7%;
+            margin-left: 60%;
+            margin-top: -8%;   
+        }
+        .link{
+            margin-top: -6%;
+        }
+        .in{
+            width:20%;
+           margin-left: 81%;
+            margin-top: -6%;
+        }
+        .menu a{
+            font-size: 20px;
+            padding:4%;
+           
+        }
+        .para{
+            font-size: 20px;
+            text-align: justify;
+            word-spacing: 15px;           
+        }
+        .list2{
+            width:49%;
+            font-size: 20px;
+           
+        }
+        .list2 h3{
+            color:darkgoldenrod;
+            font-size:20px;
+        }
+        
+        .list3{
+            width:54%;
+            padding-left: 0%;
+            margin-left: 49%;
+            margin-top:-17%;
+        }
+      
+    }
+    /* For more than 1280 px */
+    @media screen and (max-width:1440px) and (min-width:1280px)
+    {
+        .cart img{
+            height:32px;
+        }
+        .acc img{
+            height:40px;
+        }
+        .link{
+            font-size: 20px;
+        }
+        .menu a{
+            font-size: 20px;
+        }
+        .footer{
+            margin-bottom: 2%;
+            height:70px;
+        }
+        .one{
+            height:18%;
+        }
+        .two{
+            height:18%;
+        }
+        .three{
+            height:18%;
+        }
+        .four{
+            height:18%;
+        }
+        .list1{
+            width:210px;
+            padding:40px;
+        }
+        .list2{
+            width:200px;
+            padding:30px; 
+                }
+        .list3{
+           width:500px;
+          padding:30px;
+          float:right;
+        }
+        .listimg{
+            height:50px;
+        }
+    }
+    /* For pixels with 1090 width */
+    @media screen and (min-width:1090px){
+       
+        .link{
+            font-size: 20px;
+            color:cyan;
+            margin-top:-3%;
+        }
+         .in{
+            width:10%;  
+        } 
+       .list3{
+            width:55%;
+           }
+            .footer{
+               padding-bottom:4%;
+           }
+            .list1 li{
+            margin-top:5%;
+           }
+             .list2 h3{
+            margin-top:3%;
+           }
+            .list3 h3{
+               margin-top:2%;
+           }     
+    }
